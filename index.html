@@ -16,11 +16,14 @@
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
       <a-text
-        value="This content will always face you."
+        value="Its too early for this."
         look-at="[gps-camera]"
         scale="120 120 120"
-        gps-entity-place="latitude: <37.19212184882169>; longitude: <-3.6169833901989414>;"
+        gps-entity-place="latitude: 37.19205844809972; longitude: -3.617073086786608;"
       ></a-text>
+      
+      <a-box material="color: yellow" gps-entity-place="latitude: 37.192186979440436; longitude: -3.616569024499822" position="0 30 0"/>
+
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
