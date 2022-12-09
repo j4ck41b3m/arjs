@@ -1,6 +1,6 @@
 window.onLoad = ()=>
 {
-
+	cargarModelos();
 
 }
 function cargarModelos()
